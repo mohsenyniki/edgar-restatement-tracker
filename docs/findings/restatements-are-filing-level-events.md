@@ -21,7 +21,7 @@ SEC's filing index (`data.sec.gov/submissions/CIK0001637459.json`) shows the seq
 | 2019-05-06 | 8-K Item 4.02 | non-reliance: previously issued financials can't be relied on |
 | 2019-06-07 | 10-K | restated figures, the 519-change event above |
 
-An 8-K Item 4.02 is filed only for material errors, which makes it a ground-truth label for "Big R" restatements.
+An 8-K is a "current report" a company must file within four business days of a significant event; its item numbers say what happened. Item 4.02 is filed only for material errors, which makes it a ground-truth label for "Big R" restatements: an independent record to check the detector against.
 
 ## Impact on the design
 - Classification works at the filing level ([ADR 0010](../adr/0010-revision-events.md)).
