@@ -1,7 +1,7 @@
 # Most revisions are benign
 
 ## Observation
-Apple has no error restatements, yet change detection finds **449** values that changed between filings. "A value changed" is not the same as "a restatement". Four benign types account for the noise found so far.
+Apple has no error restatements, yet change detection finds **449** values that changed between filings. "A value changed" is not the same as "a restatement". Five benign types account for the noise found so far.
 
 ## Stock splits
 After a split, every prior per-share value and share count is re-reported. Apple's diluted EPS for FY2012 went from $44.15 to $6.31, a ratio of 6.997, after the 2014 7-for-1 split.
@@ -15,6 +15,11 @@ Apple's 10-K/A of 2010-01-25 changed 62 values across 32 concepts, median ~27%, 
 
 ## Reclassifications
 Kraft Heinz's most frequently changed concepts are "Other…" line items (`OtherOperatingActivitiesCashFlowStatement`, `OtherNonoperatingIncomeExpense`), which absorb amounts moved between lines.
+
+## Sign flips
+Same amount, opposite sign: a tagging correction, not an economic change. Kraft Heinz's 10-Q/A of 2017-11-07 changed `ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill` from −$48M to +$48M. Easy to detect (`new == −old`).
+
+Noise also rides along inside real restatements: of the 14 changes in that 10-Q/A pair, 12 are the actual cash-flow correction and 2 are clean-ups (this sign flip, and a balance-sheet value going from a rounded $53,500M to an exact $53,496M).
 
 ## Rounding
 Apple's FY2007 net income: $3,495M → $3,496M. Changes under 0.1%: 20 for Apple, 64 for Kraft Heinz ([ADR 0012](../adr/0012-rounding-threshold.md)).
