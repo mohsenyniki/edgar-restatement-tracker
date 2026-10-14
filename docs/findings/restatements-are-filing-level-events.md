@@ -47,6 +47,9 @@ Same money, different row.
 
 A rule like "a restatement is broad and small" would miss the 2017 case.
 
+## The answer key only helps where the data reaches
+SEC's filing list keeps only the newest ~1,000 filings in its main file; older ones are on extra pages. Checking only the main file missed Apple's Item 4.02 from 2006-08-04, because Apple's main file starts in 2015. With all pages fetched, every 4.02 is found, but only those after a company's XBRL data begins (around 2009 for large companies) can be matched to detected revisions. Earlier 4.02s are real restatements the detector can't see.
+
 ## Impact on the design
 - Classification works at the filing level ([ADR 0010](../adr/0010-revision-events.md)).
 - Item 4.02 filings are a candidate source of labels for validating the detector at scale ([ADR 0013](../adr/0013-accounting-changes-and-reclassifications.md)).

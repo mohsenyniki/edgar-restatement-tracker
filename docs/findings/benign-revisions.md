@@ -1,7 +1,7 @@
 # Most revisions are benign
 
 ## Observation
-Apple has no error restatements, yet change detection finds **449** values that changed between filings. "A value changed" is not the same as "a restatement". Five benign types account for the noise found so far.
+Apple has no error restatements in the period its XBRL data covers (filings from July 2009), yet change detection finds **449** values that changed between filings. (Apple's one Item 4.02, filed 2006-08-04 for its stock-option backdating restatement, predates that data.) "A value changed" is not the same as "a restatement". Five benign types account for the noise found so far.
 
 ## Stock splits
 After a split, every prior per-share value and share count is re-reported. Apple's diluted EPS for FY2012 went from $44.15 to $6.31, a ratio of 6.997, after the 2014 7-for-1 split.
