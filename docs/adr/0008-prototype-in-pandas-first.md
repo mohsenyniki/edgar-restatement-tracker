@@ -16,3 +16,5 @@ Before this work it was unknown what restatements and benign revisions look like
 - Rules are designed from evidence (see [findings](../findings/)).
 - A detector is only useful if it flags real restatements *and* ignores noise; the pair tests both.
 - Two companies is a small sample; rules must be re-validated on more companies.
+
+> **Correction (2026-10-13):** "no error restatements" holds only for the period Apple's XBRL data covers (filings from July 2009). Apple's full filing history includes an 8-K Item 4.02 from 2006-08-04 (stock-option backdating), found once older submissions pages were fetched. The decision is unchanged: Apple remains the noise case for the data the detector analyzes.
