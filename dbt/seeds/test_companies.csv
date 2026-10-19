@@ -9,3 +9,17 @@ cik,name,role,paired_with_cik,sic,item_402_date,reason
 0000884219,Pursuit Attractions & Hospitality,restater,,7990,2023-02-09,foreign-currency remeasurement of a finance lease
 0001141197,PEDEVCO,restater,,1311,2023-10-16,errors in quarterly financial statements
 0000885074,Aeon Global Health,restater,,8071,2019-01-24,classification and valuation of an embedded derivative
+
+
+
+0001103982,Mondelez International Inc.,control,0001637459,2000,,matched: same industry (2-digit SIC); revenue 0.99x in 2018
+0001489096,Thermon Group Holdings Inc.,control,0001093691,3620,,matched: same industry (4-digit SIC); revenue 1.67x in 2019
+0001447669,TWILIO INC,control,0001528396,7372,,matched: same industry (4-digit SIC); revenue 0.98x in 2018
+0001339605,H&E Equipment Services Inc.,control,0001647088,7350,,matched: same industry (4-digit SIC); revenue 0.74x in 2020
+0001701108,Spero Therapeutics Inc.,control,0001501989,2834,,matched: same industry (4-digit SIC); revenue 1.01x in 2022
+0000724004,MESA LABORATORIES INC /CO/,control,0000864240,3823,,matched: same industry (4-digit SIC); revenue 1.17x in 2018
+0001063344,HERSHA HOSPITALITY TRUST,control,0000899629,6798,,matched: same industry (4-digit SIC); revenue 1.01x in 2021
+0001071255,NEW ROYAL HOLDCO I INC.,control,0000884219,7990,,matched: same industry (4-digit SIC); revenue 1.00x in 2022
+0000010048,BARNWELL INDUSTRIES INC,control,0001141197,1311,,matched: same industry (4-digit SIC); revenue 0.95x in 2022
+0001674930,Fulgent Genetics Inc.,control,0000885074,8071,,matched: same industry (4-digit SIC); revenue 1.31x in 2018
+
