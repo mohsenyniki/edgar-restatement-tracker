@@ -19,6 +19,7 @@ Records are numbered in the order they were made and are not rewritten later; a 
 | [0012](0012-rounding-threshold.md) | Treat changes under 0.1% as rounding | Proposed |
 | [0013](0013-accounting-changes-and-reclassifications.md) | Accounting-rule changes and reclassifications need more than values | Open |
 | [0014](0014-shared-sec-client-module.md) | Shared SEC client module with one small script per dataset | Accepted |
+| [0015](0015-test-company-selection.md) | Test set: verified restaters paired with matched controls | Accepted |
 
 ## Template
 

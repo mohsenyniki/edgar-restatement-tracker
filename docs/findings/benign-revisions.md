@@ -24,5 +24,9 @@ Noise also rides along inside real restatements: of the 14 changes in that 10-Q/
 ## Rounding
 Apple's FY2007 net income: $3,495M → $3,496M. Changes under 0.1%: 20 for Apple, 64 for Kraft Heinz ([ADR 0012](../adr/0012-rounding-threshold.md)).
 
+## Odd but real values
+- **Negative revenue:** Plug Power reported 2020 revenue of **−$93M**. Warrants (rights to buy shares cheaply) given to customers such as Amazon and Walmart are recorded as a reduction of revenue, and in 2020 that reduction exceeded sales. Any logic that divides by revenue or assumes it's positive must handle this.
+- **Companies disappear:** acquired companies stop filing (Pivotal Software's last filing: Feb 2020), so their history ends mid-way through windows the pipeline may need.
+
 ## Why it matters
 Without filtering, a detector would flag Apple's split filings as its biggest "restatements". Separating these types is the core problem the pipeline solves.
